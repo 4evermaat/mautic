@@ -2,7 +2,14 @@ Mautic Introduction
 ===========
 <img src="https://www.mautic.org/media/images/github_readme.png" />
 <br /><br />
+## Disclaimer https://www.softaculous.com/apps/others/Mautic
+<p><i>Most users should download the latest stable, packaged zip that is ready for self-install at <a href="https://www.mautic.org/download">https://www.mautic.org/download</a></i>.  Your hosting provider may also provide direct one-click solutions such as <a href="https://www.softaculous.com/apps/others/Mautic">softaculous</a>, installatron, etc.  These are <u>not</u> the same as the repository zip.</p>
+<p>Installing from source is only recommended if you are comfortable using the command line. You'll be required to use various CLI commands to get Mautic working and to keep it working. If the source and/or database schema gets out of sync with Mautic's releases, the release updater may not work and will require manual updates.</p>
+<p>Also note that the source outside <a href="https://github.com/mautic/mautic/releases">a tagged release</a> should be considered "alpha" and may contain bugs, cause unexpected results, data corruption or loss, and is not recommended for use in a production environment. Use at your own risk.</p>
+<br />
+
 ## Getting Started
+<p> <b>Most users should download the latest stable, all-in-one mautic zip <a href="https://www.mautic.org/download">from here</a></b>. Unzip contents in a web folder, and run the index.php in a web browser to setup.</p>
 <p>
 	This is a simple 3 step installation process. You'll want to make sure you already have <a href="http://getcomposer.org">Composer</a> available on your computer as this is a development release and you'll need to use Composer to download the vendor packages.
 </p>
@@ -34,10 +41,6 @@ Mautic Introduction
 	<strong>Get stuck?</strong> No problem. Check out the <a href="https://www.mautic.org/community">Mautic community</a> for help and answers.
 </em>
 <br />
-<h2>Disclaimer</h2>
-<p>Installing from source is only recommended if you are comfortable using the command line. You'll be required to use various CLI commands to get Mautic working and to keep it working. If the source and/or database schema gets out of sync with Mautic's releases, the release updater may not work and will require manual updates.</p>
-<p><em>Also note that the source outside <a href="https://github.com/mautic/mautic/releases">a tagged release</a> should be considered "alpha" and may contain bugs, cause unexpected results, data corruption or loss, and is not recommended for use in a production environment. Use at your own risk.</em></p>
-<p>If you prefer, there are packaged downloads ready for install at <a href="https://www.mautic.org/download">https://www.mautic.org/download</a>.</p>
 
 <h2>Keeping Up-To-Date</h2>
 
